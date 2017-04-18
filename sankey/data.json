@@ -1,0 +1,146 @@
+
+{
+  "nodes": [
+    {
+      "name": "Chemical fertiliser for wheat"
+    },
+    {
+      "name": "Chemical fertiliser for energy crop"
+    },
+    {
+      "name": "Chemical fertiliser"
+    },
+    {
+      "name": "N Input"
+    },
+    {
+      "name": "Imported food"
+    },
+    {
+      "name": "Initial wheat soil"
+    },
+    {
+      "name": "Initial poplar soil"
+    },
+    {
+      "name": "Initial soil"
+    },
+    {
+      "name": "Initial in lake"
+    },
+    {
+      "name": "Other"
+    },
+    {
+      "name": "N Output"
+    },
+    {
+      "name": "Landfill"
+    },
+    {
+      "name": "Final soil"
+    },
+    {
+      "name": "Final wheat soil"
+    },
+    {
+      "name": "Final poplar soil"
+    },
+    {
+      "name": "Air"
+    },
+    {
+      "name": "Water"
+    },
+    {
+      "name": "Other emission"
+    }
+  ],
+  "links": [
+    {
+      "source": "Chemical fertiliser for wheat",
+      "target": "Chemical fertiliser",
+      "value": 532425
+    },
+    {
+      "source": "Chemical fertiliser for energy crop",
+      "target": "Chemical fertiliser",
+      "value": 27635.62
+    },
+    {
+      "source": "Chemical fertiliser",
+      "target": "N Input",
+      "value": 560060.62
+    },
+    {
+      "source": "Imported food",
+      "target": "N Input",
+      "value": 66565.685
+    },
+    {
+      "source": "Initial wheat soil",
+      "target": "Initial soil",
+      "value": 6785.336
+    },
+    {
+      "source": "Initial poplar soil",
+      "target": "Initial soil",
+      "value": 73145.344
+    },
+    {
+      "source": "Initial soil",
+      "target": "N Input",
+      "value": 79930.68
+    },
+    {
+      "source": "Initial in lake",
+      "target": "N Input",
+      "value": 78575
+    },
+    {
+      "source": "Other",
+      "target": "N Input",
+      "value": 246071.55801
+    },
+    {
+      "source": "N Input",
+      "target": "N Output",
+      "value": 1031203.54301
+    },
+    {
+      "source": "N Output",
+      "target": "Landfill",
+      "value": 5214
+    },
+    {
+      "source": "N Output",
+      "target": "Final soil",
+      "value": 251655.36
+    },
+    {
+      "source": "Final soil",
+      "target": "Final wheat soil",
+      "value": 17830.08
+    },
+    {
+      "source": "Final soil",
+      "target": "Final poplar soil",
+      "value": 233825.28
+    },
+    {
+      "source": "N Output",
+      "target": "Air",
+      "value": 431433.183
+    },
+    {
+      "source": "N Output",
+      "target": "Water",
+      "value": 342901
+    },
+    {
+      "source": "N Output",
+      "target": "Other emission",
+      "value": 0.00001
+    }
+  ]
+}
